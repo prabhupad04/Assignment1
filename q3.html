@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+
+    <head>
+
+    <title>Image Change on Hover with CSS</title>
+<style>
+ .card {
+
+            width: 200px;
+
+            height: 195px;
+
+            position: relative;
+
+            display: inline-block;
+
+        }
+
+        .card .img-top {
+
+            display: none;
+
+            position: absolute;
+
+            top: 0;
+
+            left: 0;
+           
+            z-index: 99;
+width:200px;
+        }
+
+        .card:hover .img-top {
+
+            display: inline;
+
+        }
+</style>
+ 
+    </head>
+
+    <body>
+
+        <div class="card">
+
+            <img src="C:\Users\CL403_66\Pictures\Saved Pictures\css assignment.png"style="width:200px">
+
+            <img src="C:\Users\CL403_66\Pictures\Saved Pictures\css assignment 1.png" class="img-top">
+
+        </div>
+
+    </body>
+
+    </html>

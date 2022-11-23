@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Question 8</title>
+	<style>
+		body{
+			background-color:khaki;
+		}
+		form{
+			width: 500px;
+			margin: auto;
+			text-align: center;
+			display:inline-block;
+		}
+		legend{
+			text-decoration: underline;
+			width: 250px;
+			margin: auto;
+		}
+		input{
+			text-align: center;
+			font-style: BrandonGrotesque;
+			background-color: lightgray;
+			font-size: 18px;
+		}
+		label{
+			font-size: 20px;
+			font-style: EBGaramond;
+			text-align: left;
+			text-transform: capitalize;
+		}
+		#sub{
+			font-style: Didone;
+			text-align: center;
+			color: teal;
+			background-color: white;
+		}
+
+	</style>
+</head>
+<body>
+	<form>
+		<fieldset>
+		<legend>Personal Details</legend> <br>
+<div>
+<label for="firstname">First Name:</label>
+<input type="text" id="firstname">
+</div>
+<br>
+<div>
+<label for="lastname">Last Name:</label>
+<input type="text" id="lastname">
+</div>
+<br>
+<div>
+<label for="username">User Name:</label>
+<input type="text" id="username">
+</div>
+<br>
+<div>
+<label for="mailid">Enter your email id:</label>
+<input type="email" id="mailid" placeholder="abc@gmail.com">
+</div>
+<br>
+<div>
+<label for="password">Enter your Password:</label>
+<input type="password" id="password">
+</div> <br>
+<div>
+    <label for="dropdown">Choose the language preffered:</label>
+    <select name="dropdown">
+        <option value="English">English</option>
+        <option value="Hindi">Hindi</option>
+        <option value="Odia">Odia</option>
+    </select>
+</div>
+<br>
+<div>
+	<input type="submit" name="Submit Now" id="sub">
+</div>
+</fieldset>
+	</form>
+</body>
+</html>

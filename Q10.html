@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Question 10</title>
+    <style>
+        div {
+            padding-left: 50px;
+            background-color: Gray;
+            width: 440px;
+            height: 600px;
+        }
+
+        h1 {
+            padding-left: 130px;
+            font-size: medium;
+        }
+
+        img {
+            padding-left: 140px;
+            height: 100px;
+            width: 100px;
+        }
+
+        .sub {
+            width: 400px;
+            height: 40px;
+            background-color: Alice Blue;
+            color: white;
+            padding-right: 10px;
+
+        }
+
+        label {
+
+
+            width: 100px;
+            float: left
+        }
+
+        .fm {
+            float: inherit;
+            border: 2px solid blue;
+            border-radius: 2px;
+            width: 250px;
+            height: 40px;
+        }
+
+        .bt {
+            width: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="https://images.squarespace-cdn.com/content/v1/57713a8e2994cae381dd86fe/1510405002757-FP2W9HV8ZA0HP2IF3O6A/SOA-PNG.png"
+            alt="">
+        <h1>REGISTRATION</h1>
+        <form class="q10">
+            <p>
+                <label>User Name</label>
+                <input class="fm" type="text" placeholder="Enter name...">
+            </p>
+            <p>
+                <label>Email</label>
+                <input class="fm" type="email" placeholder="Enter email...">
+            </p>
+            <p>
+                <label>Mobile</label>
+                <input class="fm" type="number" placeholder="Enter MobileNo...">
+            </p>
+
+            <p>
+                Gender
+                <input class="bt" type="radio" name="gender" value="male"> Male
+                <input class="bt" type="radio" name="gender" value="female"> Female
+            <p>
+                <label for="city">City</label>
+                <select class="fm" name="city" id="city">
+                    <option value="">Select City:</option>
+                    <option value="Bhubaneswar">BHUBANESWAR</option>
+                </select>
+                <br><br><br>
+
+                <label>Password</label>
+                <input class="fm" placeholder="Enter password..." type="password" id="pwd">
+                <br><br><br>
+
+                <input class="sub" id="sp" type="submit" value="Sign Up">
+        </form>
+    </div>
+</body>
+
+</html>
